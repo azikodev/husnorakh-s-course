@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="min-container">
-      <footer className="footer  items-center p-4 ">
+    <div className="">
+      <footer className="footer  items-center p-4 container">
         <aside className="grid-flow-col items-center">
           <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
         </aside>
