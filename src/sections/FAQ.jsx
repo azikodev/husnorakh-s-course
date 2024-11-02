@@ -8,7 +8,7 @@ function FAQ() {
         (#) ___________ ВОПРОСЫ И ОТВЕТЫ
       </p>
       <div className="flex  flex-col gap-[22px]">
-        <div className="collapse collapse-plus bg-base-200">
+        <div className="collapse collapse-plus bg-[#f8f6f6]">
           <input type="radio" name="my-accordion-3" defaultChecked />
           <div className="collapse-title text-xl font-medium">
             ДЛЯ КОГО ЭТОТ КУРС?
@@ -48,7 +48,7 @@ function FAQ() {
             </ul>
           </div>
         </div>
-        <div className="collapse collapse-plus bg-base-200">
+        <div className="collapse collapse-plus bg-[#f8f6f6]">
           <input type="radio" name="my-accordion-3" defaultChecked />
           <div className="collapse-title text-xl font-medium uppercase">
             ЧТО ТЫ получишь ОТ МОЕГО КУРСА?
