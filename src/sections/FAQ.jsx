@@ -4,7 +4,7 @@ import { FcCheckmark } from "react-icons/fc";
 function FAQ() {
   return (
     <div className="lg:mb-[100px] mb-[50px]" id="FAQ">
-      <p className="text-[#e03838] mb-[30px]">
+      <p className="text-[#e03838] mb-[55px]">
         (#) ___________ ВОПРОСЫ И ОТВЕТЫ
       </p>
       <div className="flex  flex-col gap-[22px]">
@@ -12,7 +12,7 @@ function FAQ() {
           <input type="radio" name="my-accordion-3" defaultChecked />
           <div className="collapse-title text-xl font-medium">
             ДЛЯ КОГО ЭТОТ КУРС?
-          </div>  
+          </div>
           <div className="collapse-content">
             <h3 className="montserrat-500 text-[18px] mb-[6px]">
               Мой курс подходит для того, кто:

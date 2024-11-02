@@ -10,8 +10,8 @@ function Prices() {
     <div id="prices" className="flex gap-[55px] mb-[100px] flex-col ">
       <p className="text-[#e03838] lg:mb-[30px]">(#) ___________ ТАРИФЫ</p>
       <div className="flex justify-between lg:flex-row flex-col gap-[25px]">
-        <div className="card  lg:w-[400px] shadow-xl bg-[#f8f6f6]">
-          <div className="card-body items-center justify-between flex-grow-0  p-[20px] border-[1px] border-[#121212] rounded-[20px] bg-[#f8f6f6]">
+        <div className="card  lg:w-[400px] shadow-xl bg-[#f8f6f6] border-[1px] border-[#121212] rounded-[20px]">
+          <div className="card-body items-center justify-between flex-grow-0 rounded-[20px] p-[20px]  bg-[#f8f6f6]">
             <h2 className="card-title">СТАНДАРТ</h2>
             <div className="flex flex-col gap-[14px]">
               <div className="flex items-center gap-[8px]">
@@ -30,7 +30,7 @@ function Prices() {
                   доступ к чату со всеми участницами конкурса;
                 </p>
               </div>
-              <div className="flex w-[55%] gap-[8px]">
+              <div className="flex gap-[8px]">
                 <p className="text-[22px] font-[700]">
                   <IoIosCheckmarkCircleOutline />
                 </p>
@@ -44,7 +44,7 @@ function Prices() {
                   подарок от меня после завершения курса;
                 </p>
               </div>
-              <div className="flex w-[92%] gap-[8px]">
+              <div className="flex  gap-[8px]">
                 <p className="text-[22px] font-[700]">
                   <IoIosCheckmarkCircleOutline />
                 </p>
@@ -101,8 +101,8 @@ function Prices() {
             </div>
           </div>
         </div>
-        <div className="card  lg:w-[400px] shadow-xl bg-[#f8f6f6]">
-          <div className="card-body items-center justify-between  p-[20px] border-[1px] border-[#121212] rounded-[20px] bg-[#f8f6f6]">
+        <div className="card  lg:w-[400px] shadow-xl bg-[#f8f6f6] border-[1px] border-[#121212] rounded-[20px]">
+          <div className="card-body items-center justify-between  p-[20px] rounded-[20px] bg-[#f8f6f6]">
             <h2 className="card-title">ВИП</h2>
             <div className="flex flex-col gap-[14px]">
               <div className="flex items-center gap-[8px]">
@@ -174,7 +174,7 @@ function Prices() {
                 </p>
               </div>
             </div>
-            <div className="card-actions flex justify-center">
+            <div className="card-actions flex justify-center items-center flex-col">
               <div className="my-[20px] flex flex-col items-center">
                 <p className="montserrat-500 text-[20px] ">
                   Цена:{" "}
@@ -192,8 +192,8 @@ function Prices() {
             </div>
           </div>
         </div>
-        <div className="card  lg:w-[400px] shadow-xl bg-[#f8f6f6]">
-          <div className="card-body items-center justify-between  p-[20px] border-[1px] border-[#121212] rounded-[20px] bg-[#f8f6f6] flex ">
+        <div className="card  lg:w-[400px] shadow-xl border-[1px] border-[#121212] rounded-[20px] bg-[#f8f6f6]">
+          <div className="card-body items-center justify-between  p-[20px]  bg-[#f8f6f6] flex rounded-[20px] ">
             <h2 className="card-title">ПЛАТИНУМ</h2>
             <div className="flex flex-col gap-[14px]">
               <div className="flex items-center gap-[8px]">
@@ -265,7 +265,7 @@ function Prices() {
                 </p>
               </div>
             </div>
-            <div className="card-actions flex justify-center">
+            <div className="card-actions flex justify-center items-center flex-col">
               <div className="my-[20px]">
                 <p className="montserrat-500 text-[19px]">
                   Цена:{" "}

@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="container">
+    <div className="min-container">
       <footer className="footer  items-center p-4 ">
         <aside className="grid-flow-col items-center">
           <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
