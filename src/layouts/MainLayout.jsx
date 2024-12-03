@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 //components
-import {Navbar, Footer} from "../components"
+import { Navbar, Footer } from "../components";
 
 //rrd imports
 import { Outlet } from "react-router-dom";
@@ -15,11 +15,11 @@ function MainLayout() {
       <main className="container max-w-[1200px] m-auto">
         <Outlet />
       </main>
-      <main>
+      <main  className="container max-w-[1400px] m-auto">
         <Footer />
       </main>
     </div>
-  )
+  );
 }
 
-export default MainLayout
+export default MainLayout;

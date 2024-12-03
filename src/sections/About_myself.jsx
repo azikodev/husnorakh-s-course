@@ -4,7 +4,7 @@ function About_myself() {
   return (
     <div
       id="#about_me"
-      className="flex justify-between lg:flex-row flex-col gap-[50px] lg:mb-[100px] mb-[40px]"
+      className="flex justify-between lg:flex-row flex-col gap-[50px]  mb-[40px] "
     >
       <div className="flex flex-col gap-[10px] flex-1">
         <p className="text-[#e03838] mb-[30px]">(#) ___________ ОБО МНЕ</p>
