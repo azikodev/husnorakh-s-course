@@ -1,6 +1,6 @@
 import React from "react";
 import authorImage from "../images/author_image.png";
-import author from "../images/image.png"
+import author from "../images/image.png";
 function About_myself() {
   return (
     <div
@@ -13,9 +13,9 @@ function About_myself() {
         <h3 className="montserrat-700 lg:text-[30px] text-[20px]">
           ТВОЙ ПРОВОДНИК В МИР СТИЛЯ!
         </h3>
-        <p className="lg:text-[17px] text-[15px] flex flex-col gap-[25px] mt-[20px] lg:hidden md:hidden">
-          <div className="flex ">
-            <span className="montserrat-500 mr-[30px] items-center justify-center">
+        <p className="lg:text-[17px] text-[14px] flex flex-col gap-[25px] mt-[20px] lg:hidden md:hidden">
+          <div className="flex justify-center">
+            <span className="montserrat-500 mr-[22px] items-center justify-center">
               Привет! Меня зовут Хуснора , и я основательница брендов женской
               одежды
               <span className="montserrat-700 ">
@@ -30,9 +30,9 @@ function About_myself() {
               </span>
               , а также стилист с опытом в модной индустрии.
             </span>{" "}
-            <div>
+            <div className="relative">
               <img
-                className="md:w-[w-150px] lg:w-[300px] max-w-[120px] "
+                className=" flex md:w-[w-150px] lg:w-[300px] max-w-[140px] "
                 src={author}
                 alt="author's image"
               />
@@ -47,11 +47,11 @@ function About_myself() {
         </p>
         <div className="hidden md:block">
           <div className="flex ">
-            <div  className="lg:text-[17px] text-[15px] flex flex-col gap-[25px] mt-[20px]">
+            <div className="lg:text-[17px] text-[15px] flex flex-col gap-[25px] mt-[20px]">
               <div className="flex ">
                 <span className="montserrat-500 mr-[30px] items-center justify-center">
-                  Привет! Меня зовут Хуснора , и я основательница брендов женской
-                  одежды
+                  Привет! Меня зовут Хуснора , и я основательница брендов
+                  женской одежды
                   <span className="montserrat-700 ">
                     <a href="https://www.instagram.com/svoboda.uz/">
                       {" "}
@@ -69,13 +69,18 @@ function About_myself() {
                 </span>{" "}
               </div>
               <p>
-                Уже несколько лет я помогаю девушкам находить свой стиль, а также
-                строю успешный бизнес, совмещая креатив и стратегию. Я уверена,
-                что стиль — это не просто одежда, а способ проявить себя и достичь
-                успеха, когда твой образ отражает твою личность и цели.
+                Уже несколько лет я помогаю девушкам находить свой стиль, а
+                также строю успешный бизнес, совмещая креатив и стратегию. Я
+                уверена, что стиль — это не просто одежда, а способ проявить
+                себя и достичь успеха, когда твой образ отражает твою личность и
+                цели.
               </p>
             </div>
-            <img src={authorImage} alt="author's image" className="lg:w-[250px] w-[170px] relative left-0 lg:top-[-100px] top-[-30px]" />
+            <img
+              src={authorImage}
+              alt="author's image"
+              className="lg:w-[250px] w-[170px] relative left-0 lg:top-[-100px] top-[-30px]"
+            />
           </div>
         </div>
       </div>

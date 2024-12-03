@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
       <footer className="footer  items-center p-4 container">
-        <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        <nav className="grid-flow-col gap-4 place-self-center justify-self-end">
           <a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
