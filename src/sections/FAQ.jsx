@@ -23,6 +23,15 @@ function FAQ() {
                   <FcCheckmark className="text-[22px]" />
                 </p>
                 <p>
+                  Хочет начать менять свою жизнь, совершенствоваться и стать
+                  лучшей версией себя
+                </p>
+              </li>
+              <li className="flex gap-[8px]">
+                <p>
+                  <FcCheckmark className="text-[22px]" />
+                </p>
+                <p>
                   Хочет понять, как стиль влияет на жизнь и на то, как его
                   воспринимают люди.
                 </p>
@@ -44,6 +53,12 @@ function FAQ() {
                   Интересуется, как можно выразить свою индивидуальность через
                   одежду и как использовать стиль для достижения своих целей.
                 </p>
+              </li>
+              <li className="flex gap-[8px]">
+                <p>
+                  <FcCheckmark className="text-[22px]" />
+                </p>
+                <p>Хочет управлять людьми, а не оставаться под управлением</p>
               </li>
             </ul>
           </div>
@@ -78,6 +93,18 @@ function FAQ() {
                   Умение сочетать цвета, материалы и формы, чтобы выглядеть
                   гармонично и стильно.
                 </p>
+              </li>
+              <li className="flex gap-[8px]">
+                <p>
+                  <FcCheckmark className="text-[22px]" />
+                </p>
+                <p>Навык управления впечатлениями людей о себе</p>
+              </li>
+              <li className="flex gap-[8px]">
+                <p>
+                  <FcCheckmark className="text-[22px]" />
+                </p>
+                <p>Решение проблемы «нечего надеть»</p>
               </li>
               <li className="flex gap-[8px]">
                 <p>
