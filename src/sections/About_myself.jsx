@@ -1,5 +1,5 @@
 import React from "react";
-import authorImage from  "../images/author_image.png" 
+import authorImage from "../images/author_image.png";
 function About_myself() {
   return (
     <div
@@ -54,8 +54,8 @@ function About_myself() {
           <p className="mt-[25px]">
             Уже несколько лет я помогаю девушкам находить свой стиль, а также
             строю успешный бизнес, совмещая креатив и стратегию. Я уверена, что
-            стиль — это не просто одежда, а способ проявить себя и достичь успеха,
-            когда твой образ отражает твою личность и цели.
+            стиль — это не просто одежда, а способ проявить себя и достичь
+            успеха, когда твой образ отражает твою личность и цели.
           </p>
         </p>
         <img
