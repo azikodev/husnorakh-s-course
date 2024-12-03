@@ -74,7 +74,7 @@ function Reviews() {
           </div>
         </div>
       </div>
-      <div className=" flex flex-col  gap-[16px] max-w-[750px] my-[30px] mx-[14px] lg:ml-[60px] text-[18px]">
+      <div className=" flex flex-col  gap-[16px] max-w-[750px] my-[30px] mx-[14px]  text-[18px]">
         <p>
           <span className="font-semibold">Меня часто спрашивают о стиле.</span>{" "}
           За годы работы в индустрии я заметила, что многих волнуют вопросы:
