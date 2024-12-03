@@ -1,9 +1,15 @@
 import React from "react";
-
+// images
+import avatar_1 from "../images/avatar_1.webp";
+import avatar_2 from "../images/avatar-2.jpg";
+import avatar_3 from "../images/avatar-3.png";
+import avatar_4 from "../images/avatar.png";
 function Reviews() {
   return (
     <div className="flex flex-col gap-[10px]">
-      <p className="text-[#e03838] mb-[30px] uppercase">(#) ___________ обзоры</p>
+      <p className="text-[#e03838] mb-[30px] uppercase">
+        (#) ___________ обзоры
+      </p>
       <div className="lg:flex items-end md:flex md:flex-col md:gap-[10px]">
         <div class="chat chat-start ">
           <div class="chat-bubble bg-base-100 text-[#222]">
@@ -47,7 +53,7 @@ function Reviews() {
             <div class="w-10 rounded-full">
               <img
                 alt="Tailwind CSS chat bubble component"
-                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                src={avatar_1}
               />
             </div>
           </div>
@@ -63,7 +69,7 @@ function Reviews() {
             <div class="w-10 rounded-full">
               <img
                 alt="Tailwind CSS chat bubble component"
-                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                src={avatar_2}
               />
             </div>
           </div>
@@ -78,7 +84,7 @@ function Reviews() {
             <div class="w-10 rounded-full">
               <img
                 alt="Tailwind CSS chat bubble component"
-                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                src={avatar_3}
               />
             </div>
           </div>
@@ -94,7 +100,7 @@ function Reviews() {
             <div class="w-10 rounded-full">
               <img
                 alt="Tailwind CSS chat bubble component"
-                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                src={avatar_4}
               />
             </div>
           </div>
