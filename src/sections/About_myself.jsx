@@ -1,5 +1,6 @@
 import React from "react";
 import authorImage from "../images/author_image.png";
+import author from "../images/image.png"
 function About_myself() {
   return (
     <div
@@ -32,7 +33,7 @@ function About_myself() {
             <div>
               <img
                 className="md:w-[w-150px] lg:w-[300px] max-w-[120px] "
-                src={authorImage}
+                src={author}
                 alt="author's image"
               />
             </div>
