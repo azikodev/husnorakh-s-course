@@ -8,7 +8,7 @@ function Reviews() {
   return (
     <div className="flex flex-col gap-[10px]">
       <p className="text-[#e03838] mb-[30px] uppercase">
-        (#) ___________ обзоры
+        (#) ___________ Отзывы
       </p>
 
       <div className="carousel w-full text-[14px]">
