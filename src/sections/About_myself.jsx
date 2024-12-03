@@ -15,7 +15,7 @@ function About_myself() {
         </h3>
         <p className="lg:text-[17px] text-[14px] flex flex-col gap-[25px] mt-[20px] lg:hidden md:hidden">
           <div className="flex justify-center">
-            <span className="montserrat-500 mr-[22px] items-center justify-center">
+            <span className="montserrat-500 mr-[18px] items-center justify-center">
               Привет! Меня зовут Хуснора , и я основательница брендов женской
               одежды
               <span className="montserrat-700 ">
@@ -32,7 +32,7 @@ function About_myself() {
             </span>{" "}
             <div className="relative">
               <img
-                className=" flex md:w-[w-150px] lg:w-[300px] max-w-[140px] "
+                className=" flex md:w-[w-150px] lg:w-[300px] max-w-[125px] "
                 src={author}
                 alt="author's image"
               />
