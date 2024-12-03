@@ -59,7 +59,7 @@ function About_myself() {
           </p>
         </p>
         <img
-          className=" m:w-[w-150px] lg:w-[300px] sm:w-[200px]"
+          className=" m:w-[w-150px] lg:w-[300px] w-[200px]"
           src={authorImage}
           alt="author's image"
         />
