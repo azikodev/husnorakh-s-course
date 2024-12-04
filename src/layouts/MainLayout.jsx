@@ -9,7 +9,7 @@ import { Outlet } from "react-router-dom";
 
 function MainLayout() {
   return (
-    <div className="flex-1 h-auto bg-[#928c8c]">
+    <div className="flex-1 h-auto bg-[#ddd]">
       <main className="container max-w-[1200px] m-auto">
         <Navbar />
       </main>
