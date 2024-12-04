@@ -1,21 +1,20 @@
-import React from "react";
-// images
-import avatar_1 from "../images/avatar_1.webp";
-import avatar_2 from "../images/avatar-2.jpg";
-import avatar_3 from "../images/avatar-3.png";
-import avatar_4 from "../images/avatar.png";
+// images static for sometimes place
+// import avatar_1 from "../images/avatar_1.webp";
+// import avatar_2 from "../images/avatar-2.jpg";
+// import avatar_3 from "../images/avatar-3.png";
+// import avatar_4 from "../images/avatar.png";
 function Reviews() {
   return (
     <div className="flex flex-col gap-[10px]">
-      <p className="text-[#e03838] mb-[30px] uppercase">
+      {/* <p className="text-[#e03838] mb-[30px] uppercase">
         (#) ___________ Отзывы
-      </p>
+      </p> */}
 
       <div className="carousel w-full text-[14px]">
         <div id="slide1" className="carousel-item relative w-full">
           <div class="chat chat-start ">
             <div class="chat-bubble bg-[#f1f1f1] text-[#222]">
-            Хочу искренне поблагодарить тебя за проделанную работу! Ты помогла
+              Хочу искренне поблагодарить тебя за проделанную работу! Ты помогла
               мне полностью переосмыслить свой стиль, понять, какие вещи
               действительно подчеркивают мои особенности и подходят к моему
               образу жизни. Каждый лук, который ты составила, оказался настолько
@@ -66,7 +65,7 @@ function Reviews() {
         <div id="slide5" className="carousel-item relative w-full">
           <div class="chat chat-start ">
             <div class="chat-bubble bg-[#f1f1f1] text-[#222]">
-            Ну что я могу сказать. Во первых я теперь буду знать что в моих же
+              Ну что я могу сказать. Во первых я теперь буду знать что в моих же
               вещах можно найти много луков 😅 Во вторых я действительно поняла
               что такое ОСОЗНАННЫЕ ПОКУПКИ. спасибо тебе большое. С тобой я
               обрела настоящее счастье 😍❤️😘

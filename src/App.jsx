@@ -1,7 +1,7 @@
 //layouts
 import MainLayout from "./layouts/MainLayout";
 
-//react router dom
+//rrd imports
 import {
   createBrowserRouter,
   Navigate,

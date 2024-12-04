@@ -1,4 +1,7 @@
+//react import
 import React from "react";
+
+//images
 import authorImage from "../images/author_image.png";
 import author from "../images/image.png";
 function About_myself() {
@@ -8,7 +11,7 @@ function About_myself() {
       className="flex justify-between lg:flex-row flex-col gap-[50px]  mb-[40px] "
     >
       <div className="flex flex-col gap-[10px] flex-1">
-        <p className="text-[#e03838] mb-[30px]">(#) ___________ ОБО МНЕ</p>
+        {/* <p className="text-[#e03838] mb-[30px]">(#) ___________ ОБО МНЕ</p> */}
         <h2 className="montserrat-700 lg:text-[30px] text-[20px] ">КТО Я? </h2>
         <h3 className="montserrat-700 lg:text-[30px] text-[20px]">
           ТВОЙ ПРОВОДНИК В МИР СТИЛЯ!
@@ -77,7 +80,7 @@ function About_myself() {
               </p>
             </div>
             <img
-              src={authorImage}
+              src={author}
               alt="author's image"
               className="lg:w-[250px] w-[170px] relative left-0 lg:top-[-100px] top-[-30px]"
             />

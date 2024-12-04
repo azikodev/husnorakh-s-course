@@ -1,12 +1,10 @@
-import React from "react";
-
 //react icons
 import { IoIosCheckmark } from "react-icons/io";
 
 function About_course() {
   return (
     <div className="mb-[40px]" id="about_course">
-      <p className="text-[#e03838] mb-[30px]">(#) ___________ О КУРСЕ</p>
+      {/* <p className="text-[#e03838] mb-[30px]">(#) ___________ О КУРСЕ</p> */}
       <p className="text-[17px] montserrat-400 mb-[20px]">
         Мой курс создан специально для девушек, которые хотят понять себя через
         стиль и научиться создавать образы, которые отражают их

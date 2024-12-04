@@ -1,6 +1,4 @@
-import React from "react";
-
-//sections
+//sections imports
 import {
   AboutMe,
   AboutCourse,

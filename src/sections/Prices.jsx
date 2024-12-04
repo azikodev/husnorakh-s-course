@@ -8,7 +8,7 @@ import { MdDoNotDisturbAlt } from "react-icons/md";
 function Prices() {
   return (
     <div id="prices" className="flex gap-[55px] mb-[100px] flex-col ">
-      <p className="text-[#e03838] lg:mb-[30px]">(#) ___________ ТАРИФЫ</p>
+      {/* <p className="text-[#e03838] lg:mb-[30px]">(#) ___________ ТАРИФЫ</p> */}
       <div className="flex justify-between lg:flex-row flex-col gap-[25px]">
         <div className="card  lg:w-[400px] shadow-xl bg-[#f8f6f6] border-[1px] border-[#121212] rounded-[20px]">
           <div className="card-body items-center justify-between flex-grow-0 rounded-[20px] p-[20px]  bg-[#f8f6f6]">
@@ -270,7 +270,7 @@ function Prices() {
                 <p className="montserrat-500 text-[19px]">
                   Цена:{" "}
                   <span className=" montserrat-400 ">
-                    800$ или 10.220.000 сум
+                    500$ или 6.425.000 сум
                   </span>
                 </p>
               </div>

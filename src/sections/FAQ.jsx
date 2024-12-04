@@ -1,12 +1,11 @@
-import React from "react";
 //react icons
 import { FcCheckmark } from "react-icons/fc";
 function FAQ() {
   return (
     <div className="lg:mb-[100px] mb-[50px]" id="FAQ">
-      <p className="text-[#e03838] mb-[55px]">
+      {/* <p className="text-[#e03838] mb-[55px]">
         (#) ___________ ВОПРОСЫ И ОТВЕТЫ
-      </p>
+      </p> */}
       <div className="flex  flex-col gap-[22px]">
         <div className="collapse collapse-plus bg-[#f8f6f6]">
           <input type="radio" name="my-accordion-3" defaultChecked />
