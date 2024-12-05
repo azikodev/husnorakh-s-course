@@ -12,7 +12,7 @@ function About_course() {
         которое поможет вам выглядеть стильно и уверенно, независимо от
         ситуации.
       </p>
-      <p className="montserrat-500 font-[17px] mb-[10px]">
+      <p className="montserrat-500 font-[17px] mb-[10px] uppercase">
         На курсе ты пройдешь два модуля. В первом модуле ты ознакомишься с:
       </p>
       <ul>
@@ -40,9 +40,15 @@ function About_course() {
           </span>{" "}
           <p>разновидностями стилей;</p>{" "}
         </li>
+        <li className="flex  items-center gap-[8px]">
+          <span className="text-[28px]">
+            <IoIosCheckmark />
+          </span>{" "}
+          <p>и, главное, — научимся создавать свою идеальную базовую капсулу.</p>{" "}
+        </li>
       </ul>
-      <p className="montserrat-500 font-[17px] mt-[20px] mb-[10px]">
-        и, главное, — научимся создавать свою идеальную базовую капсулу. Во
+      <p className="montserrat-500 font-[17px] mt-[20px] mb-[10px] uppercase">
+         Во
         втором модуле мы покопаемся глубже и научим тебя через стиль:
       </p>
       <ul>
@@ -51,21 +57,28 @@ function About_course() {
             <IoIosCheckmark />
           </span>
           <p>
-            презентовать себя миру так, как хотелось бы именно тебе влиять на
-            окружение,
+            презентовать себя миру так, как хотелось бы именно тебе;
           </p>
         </li>
         <li className="flex  items-center gap-[8px]">
           <span className="text-[28px]">
             <IoIosCheckmark />
           </span>
-          <p>добиваться успеха в нужной для тебя сфере</p>
+          <p>
+            влиять на окружение;
+          </p>
         </li>
         <li className="flex  items-center gap-[8px]">
           <span className="text-[28px]">
             <IoIosCheckmark />
           </span>
-          <p>управлять своими ощущениями и самооценкой</p>
+          <p>добиваться успеха в нужной для тебя сфере;</p>
+        </li>
+        <li className="flex  items-center gap-[8px]">
+          <span className="text-[28px]">
+            <IoIosCheckmark />
+          </span>
+          <p>управлять своими ощущениями и самооценкой.</p>
         </li>
       </ul>
     </div>
