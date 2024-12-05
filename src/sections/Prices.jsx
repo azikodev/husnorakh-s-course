@@ -94,7 +94,7 @@ function Prices() {
                 <p className="text-[20px]"> 9,99$ или 129.000 сум </p>
               </div>
               <button className="btn hover:bg-[#838080]  bg-[#c43232] px-[44px] mt-[18px] text-[#fff]">
-                <a className="bg-inherit" href="https://t.me/azikodev_support">
+                <a className="bg-inherit" href="https://t.me/+998773775452">
                   Купить
                 </a>
               </button>
@@ -185,7 +185,7 @@ function Prices() {
                 <p className="text-[20px]">  50$ или 640.000 сум </p>
               </div>
               <button className="btn hover:bg-[#838080]  bg-[#c43232] px-[44px] mt-[18px] text-[#fff]">
-                <a className="bg-inherit" href="https://t.me/azikodev_support">
+                <a className="bg-inherit" href="https://t.me/+998773775452">
                   Купить
                 </a>
               </button>
@@ -275,7 +275,7 @@ function Prices() {
                 </p>
               </div>
               <button className="btn hover:bg-[#838080]  bg-[#c43232] px-[44px] mt-[18px] text-[#fff]">
-                <a className="bg-inherit" href="https://t.me/azikodev_support">
+                <a className="bg-inherit" href="https://t.me/+998773775452">
                   Купить
                 </a>
               </button>
